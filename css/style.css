@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* esto es un reseteo "general" */
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    text-align: center;
+}
+
+h1{
+    font-size: 900;
+    font-weight: 900;
+}
+
+.btn1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* color: white;
+    background-color: tomato; */
+    font-weight: 500;
+    /* background-color: ; */
+}
+
+.error {
+    color: red;
+    font-size: bold;
+}
+
+/* #footer {
+    text-align: right;
+    margin-top: 50%;
+    margin-bottom: 0%;
+} */
+
+/* .title::before{
+    content: "🤔";
+} */
