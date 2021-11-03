@@ -12,6 +12,7 @@ let edad;
 
 //Funciones
 const pregunta = () => {
+    error.textContent = ""; // esto "elimina" el texto puesto por la condición
     edad = prompt("Dime tu edad");
     // error.textContent = 0;
     // console.log(edad)

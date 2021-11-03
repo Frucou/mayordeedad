@@ -14,8 +14,12 @@ body{
 }
 
 h1{
-    font-size: 900;
     font-weight: 900;
+}
+
+.title::before{
+    content: "🤔";
+    /* display: block; */
 }
 
 .btn1 {
@@ -38,6 +42,3 @@ h1{
     margin-bottom: 0%;
 } */
 
-/* .title::before{
-    content: "🤔";
-} */
